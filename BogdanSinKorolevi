@@ -1,0 +1,9 @@
+while true do
+local Animate = game.Players.LocalPlayer.Character.Animate
+Animate.walk.WalkAnim.AnimationId = "https://www.roblox.com/catalog/754636298/Mage-Walk"
+Animate.run.RunAnim.AnimationId = "https://www.roblox.com/catalog/754635032/Mage-Run"
+Animate.idle.IdleAnim.AnimationId = "https://www.roblox.com/catalog/754637456/Mage-Idle"
+game.Players.LocalPlayer.Character.Humanoid.Jump = false
+Animate.jump.JumpAnim.AnimationId = "https://www.roblox.com/catalog/754637084/Mage-Jump" 
+Animate.fall.FallAnim.AnimationId = "https://www.roblox.com/catalog/754636589/Mage-Fall" 
+end
