@@ -1,3 +1,5 @@
+local Animate = game.Players.LocalPlayer.Character.Animate
+
 Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
 Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
 Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
