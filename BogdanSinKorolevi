@@ -1,9 +1,7 @@
-while true do
-local Animate = game.Players.LocalPlayer.Character.Animate
-Animate.walk.WalkAnim.AnimationId = "https://www.roblox.com/catalog/754636298"
-Animate.run.RunAnim.AnimationId = "https://www.roblox.com/catalog/754635032"
-Animate.idle.IdleAnim.AnimationId = "https://www.roblox.com/catalog/754637456"
-game.Players.LocalPlayer.Character.Humanoid.Jump = false
-Animate.jump.JumpAnim.AnimationId = "https://www.roblox.com/catalog/754637084" 
-Animate.fall.FallAnim.AnimationId = "https://www.roblox.com/catalog/754636589" 
-end
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=707853694"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=707826056"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
